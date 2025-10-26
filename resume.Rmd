@@ -9,11 +9,11 @@ output:
 ## Education
 
 ### Columbia University, Mailman School of Public Health – New York, NY
-* **M.S. in Biostatistics (Theory and Method Track)**       ***09/2025–05/2027***
+* **M.S. in Biostatistics (Theory and Method Track)**       *09/2025–05/2027*
 * **Core Courses:** Probability, Biostatistic Method, Data Science, Epidemiology.
 
 ### University of Rochester – Rochester, NY
-* **B.S.in Statistics & B.A. in Business & Minor in Mathematics** ***09/2021–05/2025***
+* **B.S.in Statistics & B.A. in Business & Minor in Mathematics** *09/2021–05/2025*
 * **Core Courses:** Linear Algebra, Multidimensional Calculus, Intro to Math Statistics, Linear Model, Bayesian Inference, Categorical Data
 Analysis, Sampling techniques, Experimental Design.
 * **Computer Skills:** Java, Python, R, MATLAB, SQL, SAS, Minitab, Tableau, JMP, Excel.
@@ -21,8 +21,35 @@ Analysis, Sampling techniques, Experimental Design.
 
 ## Working Experiences
 
-###Teaching Assistant
+### Teaching Assistant
 
+**Class of Intro Statistical Software I, University of Rochester - Rochester, NY** *08/2024-12/2025*
+
+* Worked as the teaching assistant for Prof. Javier Bautista based on my sound statistics and programming knowledge.
+
+*	Assisted with the lecture progress and assignment review; held weekly office hours and answered students’ questions, carefully instructing them in enhancing programming with R, SAS and JMP and utilization of multivariate linear models.
+
+* Conducted lectures and facilitated course instruction during the professor’s business travel period.
+
+### Teaching Assistant
+
+### Investment Banking Intern 
+**Industrial and Commercial Bank of China - Beijing, China** *06/2024-08/2024*
+
+* Studied the transformation of leading manufacturing industries (Information Technology, Biomedicine, New Energy Vehicle, Integrated Circuits, etc.) and proposed a path of developing the new quality productive forces in Beijing area.
+
+* Participated in the M&A deal of Genertec Universal Medical for ZTH Medical: analyzed the medical linear accelerator market, assessed profitability and risks, and made the deal plan according to the client’s demands.
+
+* Worked for the equity financing project of Baic Group: examined the new energy vehicle industry and presented the findings concerning profitability, global market distribution, and technology development trend
+
+### Auditing Intern
+**Earnest & Young - Beijing, China** *07/2023-09/2023*
+
+* Engaged in the interim audit for China Communications Construction Company Limited (CCCC)
+
+* Audited all the secondary offices of CCCC in the asset group and capital group, independently checked the statements of account, amortization of intangible assets and statements of estimated liability
+
+* Reviewed both the H-share and A-share of CCCC and completed the adjustment and verification of 30+ items; helped produce the semiannual auditing report throughout the whole process 
 
 
 ## Research Projects
