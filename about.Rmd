@@ -6,4 +6,4 @@ output:
 
 The website is created by Bohan Zhu using R markdown. Website contains a main page, an about page, and a graphical analysis of `Instacart` data. 
 
-Go back to the [homepage](Index.html)
+Go back to the [homepage](index.html)

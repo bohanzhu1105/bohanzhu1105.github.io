@@ -80,3 +80,5 @@ Analysis, Sampling techniques, Experimental Design.
 * Worked with Prof. Peihua Cao for the studies on the influencing factors and predictive model of cognitive dysfunction in patients with the cerebral small vessel disease
 
 * Mined clinical sample data from 330+ patients; conducted data wrangling and variable classification based on statistical requirements; constructed a regression model to predict what factors impacted the cognitive function levels of patients
+
+Go back to the [homepage](index.html)
