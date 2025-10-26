@@ -18,6 +18,6 @@ To learn more about my academic and professional experiences, please see my [res
 
 Here's one of my picture.
 
-<img src="image/Photo.jpg" style="width:50%">
+<img src="image/Photo.jpg" style="width:30%">
 
 Learn more about this website [here](about.html)

@@ -4,6 +4,6 @@ output:
   html_document:
 ---
 
-The website is created by Bohan Zhu using R markdown. Website created for P8105 HW4. Contains include a main page, an about page, a page, and a graphical analysis of `Instacart` data. 
+The website is created by Bohan Zhu using R markdown. Website contains a main page, an about page, a page, and a graphical analysis of `Instacart` data. 
 
 Go back to the [homepage](Index.html)

@@ -9,7 +9,16 @@ output:
 ## Education
 
 ### Columbia University, Mailman School of Public Health – New York, NY
-* **M.S. in Biostatistics (Theory and Method Track)**  <span style="float:right;">**09/2025–05/2027**</span>
+* **M.S. in Biostatistics (Theory and Method Track)**       *09/2025–05/2027*
 * **Core Courses:** Probability, Biostatistic Method, Data Science, Epidemiology.
 
 ### University of Rochester – Rochester, NY
+* **B.S.in Statistics & B.A. in Business & Minor in Mathematics**   *09/2021–05/2025*
+* **Core Courses:** Linear Algebra, Multidimensional Calculus, Intro to Math Statistics, Linear Model, Bayesian Inference, Categorical Data
+Analysis, Sampling techniques, Experimental Design.
+* **Computer Skills:** Java, Python, R, MATLAB, SQL, SAS, Minitab, Tableau, JMP, Excel.
+* **Honors:** Dean’s List, University of Rochester, 2021, 2022, 2023, 2024, and 2025.
+
+## Internship
+
+## Research Projects
