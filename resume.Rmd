@@ -9,11 +9,11 @@ output:
 ## Education
 
 ### Columbia University, Mailman School of Public Health – New York, NY
-* **M.S. in Biostatistics (Theory and Method Track)**       *09/2025–05/2027*
+* **M.S. in Biostatistics (Theory and Method Track)**       *09/2025 – 05/2027*
 * **Core Courses:** Probability, Biostatistic Method, Data Science, Epidemiology.
 
 ### University of Rochester – Rochester, NY
-* **B.S.in Statistics & B.A. in Business & Minor in Mathematics** *09/2021–05/2025*
+* **B.S.in Statistics & B.A. in Business & Minor in Mathematics** *09/2021 – 05/2025*
 * **Core Courses:** Linear Algebra, Multidimensional Calculus, Intro to Math Statistics, Linear Model, Bayesian Inference, Categorical Data
 Analysis, Sampling techniques, Experimental Design.
 * **Computer Skills:** Java, Python, R, MATLAB, SQL, SAS, Minitab, Tableau, JMP, Excel.
@@ -23,7 +23,7 @@ Analysis, Sampling techniques, Experimental Design.
 
 ### Teaching Assistant
 
-**Class of Intro Statistical Software I, University of Rochester - Rochester, NY** *08/2024-12/2025*
+**Class of Intro Statistical Software I, University of Rochester - Rochester, NY** *08/2024 - 12/2025*
 
 * Worked as the teaching assistant for Prof. Javier Bautista based on my sound statistics and programming knowledge.
 
@@ -31,10 +31,17 @@ Analysis, Sampling techniques, Experimental Design.
 
 * Conducted lectures and facilitated course instruction during the professor’s business travel period.
 
-### Teaching Assistant
+### Research Intern
+**Beijing Strong Biotechnologies,Inc - Beijing, China** *06/2025 - 08/2025*
+
+* Independently established the statistical analysis framework for ASCVD biomarker evaluation, integrating lipid indicators (Lp-PLA2, sdLDL-C, NEFA) with traditional lipid profiles.
+
+* Conducted comparative and logistic regression analyses to assess diagnostic efficacy, applying R for data preprocessing, hypothesis testing, model selection, and ROC curve validation.
+
+* Contributed to the sub-project’s core analytical design by linking clinical lipidomics to risk prediction for atherosclerotic cardiovascular disease.
 
 ### Investment Banking Intern 
-**Industrial and Commercial Bank of China - Beijing, China** *06/2024-08/2024*
+**Industrial and Commercial Bank of China - Beijing, China** *06/2024 - 08/2024*
 
 * Studied the transformation of leading manufacturing industries (Information Technology, Biomedicine, New Energy Vehicle, Integrated Circuits, etc.) and proposed a path of developing the new quality productive forces in Beijing area.
 
@@ -43,7 +50,7 @@ Analysis, Sampling techniques, Experimental Design.
 * Worked for the equity financing project of Baic Group: examined the new energy vehicle industry and presented the findings concerning profitability, global market distribution, and technology development trend
 
 ### Auditing Intern
-**Earnest & Young - Beijing, China** *07/2023-09/2023*
+**Earnest & Young - Beijing, China** *07/2023 - 09/2023*
 
 * Engaged in the interim audit for China Communications Construction Company Limited (CCCC)
 
@@ -53,3 +60,23 @@ Analysis, Sampling techniques, Experimental Design.
 
 
 ## Research Projects
+
+### Change-Point Detection
+
+**University of Rochester, Statistics Department - Rochester, NY** *09/2024 - 07/2025*
+
+* Under review, Northeast Journal of Complex Systems (NEJCS) — “Entropy-Driven Change-Point Detection via Bayesian Methods”
+
+* Proposed a unified Bayesian framework that leverages entropy dynamics to identify structural transitions in complex temporal systems.
+
+* Formulated and implemented a customized Metropolis–Hastings sampler to perform posterior inference and quantify change-point uncertainty.
+
+* Conducted rigorous convergence diagnostics (Gelman–Rubin, Raftery–Lewis) and posterior analyses to validate model stability and infer transition credibility.
+
+### ASCVD and Cognitive Impairment Analysis.
+
+**Zhujiang Hospital of Southern Medical University, Clinical Research Center - Remote** *11/2024 - 2/2025*
+ 
+* Worked with Prof. Peihua Cao for the studies on the influencing factors and predictive model of cognitive dysfunction in patients with the cerebral small vessel disease
+
+* Mined clinical sample data from 330+ patients; conducted data wrangling and variable classification based on statistical requirements; constructed a regression model to predict what factors impacted the cognitive function levels of patients
