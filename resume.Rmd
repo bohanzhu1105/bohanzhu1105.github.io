@@ -1,0 +1,8 @@
+---
+title: "My Resume"
+output: 
+  html_document:
+---
+
+## Education
+**Columbia University**

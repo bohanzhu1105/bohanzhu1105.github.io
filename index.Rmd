@@ -1,0 +1,19 @@
+---
+title: "Bohan's Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Welcome to Bohan's website!
+
+![](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aHpzdmZydmRndXBuMHhsOGxsZGRob2lwZGcwZGl2NXFiNG8xams4bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kW3ibLKDLCmq4bCKF6/giphy.gif)
+
+Hi everyone, and welcome to Bohan Zhu’s personal website!
+
+I’m currently a first-year master’s student in Biostatistics at Columbia University’s Mailman School of Public Health.
+
+To learn more about my academic and professional experiences, please see my [resume](resume.html).
+
+Learn more about this website [here](about.html)
