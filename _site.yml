@@ -19,4 +19,4 @@ navbar:
       href: https://orcid.org/0009-0004-7253-1318
 output:
   html_document:
-    theme: spacelab
+    theme: yeti

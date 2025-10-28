@@ -23,17 +23,15 @@ Column {data-width=650}
 
 
 ```{r}
-rest_scatter =
+rest_scatter=
   rest_inspec |> 
   drop_na() |> 
   filter(
-    boro == "Manhattan", 
+    boro == "Manhattan",
     score >= 20
     ) 
 ```
 
-Column {data-width=350}
------------------------------------------------------------------------
 ```{r}
 rest_scatter |> 
   plot_ly(
@@ -42,10 +40,44 @@ rest_scatter |>
 ```
 
 
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Violin Plot
+
+```{r}
+rest_box =
+  rest_inspec |>
+  drop_na() |>
+  filter(
+    boro == "Queens"
+  ) 
+```
+
+```{r}
+rest_box |> 
+  plot_ly(y = ~score, x = ~inspection_type, color = ~inspection_type, type = "violin", colors = "viridis")
+```
+
+
 ### Bar Plot
+```{r}
+rest_bar = 
+  rest_inspec |>
+  drop_na() |>
+  filter(
+    boro == "Brooklyn"
+  ) 
+```
+
+```{r}
+rest_bar |> 
+  count(grade) |> 
+  mutate(grade = fct_reorder(grade, n)) |> 
+  plot_ly(x = ~grade, y = ~n, color = ~grade, type = "bar", colors = "viridis")
+```
 
 
 
-### Chart C
 
 
