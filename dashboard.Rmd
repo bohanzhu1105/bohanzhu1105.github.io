@@ -12,8 +12,7 @@ library(flexdashboard)
 library(tidyverse)
 library(p8105.datasets)
 
-
-data("instacart")
+data("weather_df")
 ```
 
 
@@ -22,44 +21,27 @@ Column {data-width=650}
 
 ### Scatter Plot
 
-```{r}
 
+```{r}
+weather_df |> 
+  plot_ly(
+  x = ~date,
+  y = ~tmax,
+  color = ~name,
+  type = "scatter",
+  mode = "markers+lines",
+  alpha = 0.5
+  ) 
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-```{r}
-instacart_bar =
-  instacart |>
-  filter(department == "snacks") |>
-  group_by(aisle_id, aisle) |>
-  summarise(orders = n(), .groups = "drop") |>
-  arrange(desc(orders)) |>
-  mutate(aisle = forcats::fct_reorder(aisle, orders)) 
-```
 
 ### Bar Plot
 
-```{r}
-plot_ly(
-  instacart_bar,
-  x = ~aisle,
-  y = ~orders,
-  color = ~aisle,
-  type = "bar",
-  colors = "viridis"
-) |> 
-  layout(
-    xaxis = list(title = "Number of Orders"),
-    yaxis = list(title = "Aisle Name", tickfont = list(size = 8))
-  )
-```
 
 
 ### Chart C
 
-```{r}
-
-```
 
