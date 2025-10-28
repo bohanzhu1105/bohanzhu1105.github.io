@@ -56,7 +56,11 @@ rest_box =
 
 ```{r}
 rest_box |> 
-  plot_ly(y = ~score, x = ~inspection_type, color = ~inspection_type, type = "violin", colors = "viridis")
+  plot_ly(y = ~score, x = ~inspection_type, color = ~inspection_type, type = "violin", colors = "viridis") |> 
+  layout(
+    xaxis = list(title = "Score"),
+    yaxis = list(title = "Inspection Type")
+  )
 ```
 
 
