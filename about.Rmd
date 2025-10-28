@@ -4,6 +4,16 @@ output:
   html_document:
 ---
 
-The website is created by Bohan Zhu using R markdown. Website contains a main page, an about page, and a graphical analysis of `Instacart` data. 
+The website is created by Bohan Zhu using R markdown. Website contains a 
+main page, an about page, and a graphical analysis of `rest_inspect` data 
+which refers to New York City Restaurant Inspection Results.
+
+For the `rest_inspect`, I created three plot.
+
+First scatter plot indicates, 
+
+Second plot shows, 
+
+Finally, the plot illustrates 
 
 Go back to the [homepage](index.html)

@@ -12,7 +12,7 @@ library(flexdashboard)
 library(tidyverse)
 library(p8105.datasets)
 
-data("weather_df")
+data("rest_inspec")
 ```
 
 
@@ -23,19 +23,23 @@ Column {data-width=650}
 
 
 ```{r}
-weather_df |> 
-  plot_ly(
-  x = ~date,
-  y = ~tmax,
-  color = ~name,
-  type = "scatter",
-  mode = "markers+lines",
-  alpha = 0.5
-  ) 
+rest_scatter =
+  rest_inspec |> 
+  drop_na() |> 
+  filter(
+    boro == "Manhattan", 
+    score >= 20
+    ) 
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
+```{r}
+rest_scatter |> 
+  plot_ly(
+    x = ~latitude, y = ~longitude, type = "scatter", mode = "markers",
+    color = ~score, alpha = 0.5)
+```
 
 
 ### Bar Plot
