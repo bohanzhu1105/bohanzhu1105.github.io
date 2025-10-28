@@ -41,6 +41,14 @@ window.FlexDashboardComponents = [];
 <link href="site_libs/value-box-accent-static-0.6.2/theme-cosmo-value-box.css" rel="stylesheet" />
 <link href="site_libs/flexdashboard-css-0.6.2/flexdashboard.min.css" rel="stylesheet" />
 <link href="site_libs/flexdashboard-css-0.6.2/theme-cosmo.css" rel="stylesheet" />
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet" />
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/plotly-binding-4.11.0/plotly.js"></script>
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
 <style type="text/css">
 /*
   CSS for flexdashboard.js' use of Sly(). The sizing/position of this CSS needs to be
@@ -1858,8 +1866,8 @@ window.FlexDashboardComponents.push({
 
 <div id="column" class="section level2" data-width="650">
 <h2>Column</h2>
-<div id="chart-a" class="section level3">
-<h3>Chart A</h3>
+<div id="scatter-plot" class="section level3">
+<h3>Scatter Plot</h3>
 <div class="knitr-options" data-fig-width="576" data-fig-height="460">
 
 </div>
@@ -1867,11 +1875,16 @@ window.FlexDashboardComponents.push({
 </div>
 <div id="column-1" class="section level2" data-width="350">
 <h2>Column</h2>
-<div id="chart-b" class="section level3">
-<h3>Chart B</h3>
 <div class="knitr-options" data-fig-width="576" data-fig-height="460">
 
 </div>
+<div id="bar-plot" class="section level3">
+<h3>Bar Plot</h3>
+<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+
+</div>
+<div class="plotly html-widget html-fill-item" id="htmlwidget-36c59deafbf69cd89f7d" style="width:576px;height:460.8px;"></div>
+<script type="application/json" data-for="htmlwidget-36c59deafbf69cd89f7d">{"x":{"visdat":{"a63a24a7ac2f":["function () ","plotlyVisDat"]},"cur_data":"a63a24a7ac2f","attrs":{"a63a24a7ac2f":{"x":{},"y":{},"color":{},"colors":"viridis","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"xaxis":{"domain":[0,1],"automargin":true,"title":"Number of Orders","type":"category","categoryorder":"array","categoryarray":["ice cream toppings","mint gum","trail mix snack mix","fruit vegetable snacks","popcorn jerky","cookies cakes","candy chocolate","nuts seeds dried fruit","energy granola bars","crackers","chips pretzels"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Aisle Name","tickfont":{"size":8}},"hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["ice cream toppings"],"y":[504],"type":"bar","name":"ice cream toppings","marker":{"color":"rgba(68,1,84,1)","line":{"color":"rgba(68,1,84,1)"}},"textfont":{"color":"rgba(68,1,84,1)"},"error_y":{"color":"rgba(68,1,84,1)"},"error_x":{"color":"rgba(68,1,84,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["mint gum"],"y":[962],"type":"bar","name":"mint gum","marker":{"color":"rgba(72,37,117,1)","line":{"color":"rgba(72,37,117,1)"}},"textfont":{"color":"rgba(72,37,117,1)"},"error_y":{"color":"rgba(72,37,117,1)"},"error_x":{"color":"rgba(72,37,117,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["trail mix snack mix"],"y":[1463],"type":"bar","name":"trail mix snack mix","marker":{"color":"rgba(65,68,135,1)","line":{"color":"rgba(65,68,135,1)"}},"textfont":{"color":"rgba(65,68,135,1)"},"error_y":{"color":"rgba(65,68,135,1)"},"error_x":{"color":"rgba(65,68,135,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["fruit vegetable snacks"],"y":[6741],"type":"bar","name":"fruit vegetable snacks","marker":{"color":"rgba(53,96,141,1)","line":{"color":"rgba(53,96,141,1)"}},"textfont":{"color":"rgba(53,96,141,1)"},"error_y":{"color":"rgba(53,96,141,1)"},"error_x":{"color":"rgba(53,96,141,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["popcorn jerky"],"y":[6917],"type":"bar","name":"popcorn jerky","marker":{"color":"rgba(42,120,142,1)","line":{"color":"rgba(42,120,142,1)"}},"textfont":{"color":"rgba(42,120,142,1)"},"error_y":{"color":"rgba(42,120,142,1)"},"error_x":{"color":"rgba(42,120,142,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["cookies cakes"],"y":[9980],"type":"bar","name":"cookies cakes","marker":{"color":"rgba(33,144,141,1)","line":{"color":"rgba(33,144,141,1)"}},"textfont":{"color":"rgba(33,144,141,1)"},"error_y":{"color":"rgba(33,144,141,1)"},"error_x":{"color":"rgba(33,144,141,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["candy chocolate"],"y":[11453],"type":"bar","name":"candy chocolate","marker":{"color":"rgba(34,168,132,1)","line":{"color":"rgba(34,168,132,1)"}},"textfont":{"color":"rgba(34,168,132,1)"},"error_y":{"color":"rgba(34,168,132,1)"},"error_x":{"color":"rgba(34,168,132,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["nuts seeds dried fruit"],"y":[12532],"type":"bar","name":"nuts seeds dried fruit","marker":{"color":"rgba(67,190,113,1)","line":{"color":"rgba(67,190,113,1)"}},"textfont":{"color":"rgba(67,190,113,1)"},"error_y":{"color":"rgba(67,190,113,1)"},"error_x":{"color":"rgba(67,190,113,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["energy granola bars"],"y":[17449],"type":"bar","name":"energy granola bars","marker":{"color":"rgba(122,209,81,1)","line":{"color":"rgba(122,209,81,1)"}},"textfont":{"color":"rgba(122,209,81,1)"},"error_y":{"color":"rgba(122,209,81,1)"},"error_x":{"color":"rgba(122,209,81,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["crackers"],"y":[19592],"type":"bar","name":"crackers","marker":{"color":"rgba(188,223,39,1)","line":{"color":"rgba(188,223,39,1)"}},"textfont":{"color":"rgba(188,223,39,1)"},"error_y":{"color":"rgba(188,223,39,1)"},"error_x":{"color":"rgba(188,223,39,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["chips pretzels"],"y":[31269],"type":"bar","name":"chips pretzels","marker":{"color":"rgba(253,231,37,1)","line":{"color":"rgba(253,231,37,1)"}},"textfont":{"color":"rgba(253,231,37,1)"},"error_y":{"color":"rgba(253,231,37,1)"},"error_x":{"color":"rgba(253,231,37,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="chart-c" class="section level3">
 <h3>Chart C</h3>
