@@ -15,25 +15,25 @@ library(p8105.datasets)
 data("rest_inspec")
 ```
 
+Go back to the [homepage](index.html)
 
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Violin Plot
+### Box Plot
 
 ```{r}
 rest_box =
   rest_inspec |>
   drop_na() |>
   filter(
-    boro == "Queens",
-    score >20
+    boro == "Queens"
   ) 
 ```
 
 ```{r}
 rest_box |> 
-  plot_ly(y = ~score, x = ~street, color = ~street, type = "violin", colors = "viridis") 
+  plot_ly(y = ~score, x = ~cuisine_description, color = ~cuisine_description, type = "box", colors = "viridis") 
 ```
 
 
