@@ -16,6 +16,8 @@ I’m currently a first-year master’s student in Biostatistics at Columbia Uni
 
 To learn more about my academic and professional experiences, please see my [resume](resume.html).
 
+To see the visualization for NYC Restaurant Inspections, assess the [dashboard](dashboard.html).
+
 Here's one of my picture.
 
 <img src="image/Photo.jpg" style="width:30%">
