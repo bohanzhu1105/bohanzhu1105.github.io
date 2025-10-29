@@ -26,7 +26,8 @@ rest_box =
   rest_inspec |>
   drop_na() |>
   filter(
-    boro == "Queens"
+    boro == "Queens",
+    score >20
   ) 
 ```
 
