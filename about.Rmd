@@ -10,10 +10,10 @@ which refers to New York City Restaurant Inspection Results.
 
 For the `rest_inspect`, I created three plot.
 
-First scatter plot indicates, 
+First violin plot indicates compares restaurant inspection scores across different inspection types in Queens.
 
-Second plot shows, 
+Second scatter plot maps the geographic distribution of inspections in Manhattan, with color indicating score levels.
 
-Finally, the plot illustrates 
+Finally, the plot  summarizes the overall grade distribution across Brooklyn, showing that most restaurants received an “A” rating.
 
 Go back to the [homepage](index.html)
